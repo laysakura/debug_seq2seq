@@ -25,7 +25,7 @@ The code includes:
 
 **Setup&Run**
 
-    git clone https://github.com/nicolas-ivanov/debug_seq2seq
+    git clone https://github.com/laysakura/debug_seq2seq
     cd debug_seq2seq
     bash bin/setup.sh
     pip install --upgrade --no-deps .
