@@ -31,7 +31,8 @@ def predict():
 
     while True:
         input_sentence = raw_input('> ')
-        predict_sentence(input_sentence, nn_model, w2v_model, index_to_token)
+        seq = predict_sentence(input_sentence, nn_model, w2v_model, index_to_token)
+        print(seq)
 
 
 if __name__ == '__main__':
