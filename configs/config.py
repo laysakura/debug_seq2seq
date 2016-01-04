@@ -2,7 +2,7 @@ import os
 import time
 
 # set paths for storing models and results locally
-DATA_PATH = '/var/lib/try_seq2seq'
+DATA_PATH = '/tmp/try_seq2seq'
 CORPORA_DIR = 'corpora_raw'
 PROCESSED_CORPORA_DIR = 'corpora_processed'
 W2V_MODELS_DIR = 'w2v_models'

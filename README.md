@@ -28,8 +28,12 @@ The code includes:
     git clone https://github.com/nicolas-ivanov/debug_seq2seq
     cd debug_seq2seq
     bash bin/setup.sh
+    pip install --upgrade --no-deps .
     python bin/train.py
 or
 
     python bin/test.py
     
+If you have missing packages, install it by pip. For example,
+
+    pip install --upgrade --no-deps gensim
